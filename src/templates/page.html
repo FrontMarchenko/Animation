@@ -1,0 +1,18 @@
+---
+title: Animation
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	<h1>OMG</h1>
+	<!-- begin canvas  -->
+	
+			<div class="canvas">
+		{% for i in range(0, 170) %}
+		  <div class="p{{i}}"></div>
+		{% endfor %}
+	</div>
+
+	<!-- end canvas -->
+
+{% endblock %}
