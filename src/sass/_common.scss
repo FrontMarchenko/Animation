@@ -458,7 +458,7 @@ polygon(64.98% 17.78%, 64.98% 25.82%, 71% 25.82%);
 	}
 }
 
-@include render($anim5);
+@include render($anim1);
 .anim2{
 	@include render($anim2);
 }
@@ -474,9 +474,7 @@ polygon(64.98% 17.78%, 64.98% 25.82%, 71% 25.82%);
 .anim6{
 	@include render($anim6);
 }
-.anim1{
-	@include render($anim1);
-}
+
 body {
 	background: yellow;
 }
